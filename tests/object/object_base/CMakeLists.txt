@@ -1,0 +1,2 @@
+add_executable(objectbase_test ObjectBase_test.cpp Thread.cpp)
+target_link_libraries(objectbase_test pthread)

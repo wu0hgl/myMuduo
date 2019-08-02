@@ -1,0 +1,70 @@
+﻿生成启动时间为 2019/7/10 18:06:20。
+     1>项目“E:\C++_practices\myMuduo\base\base.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Condition.cpp CountDownLatch.cpp Exception.cpp FileUtil.cpp LogFile.cpp Logging.cpp LogStream.cpp ProcessInfo.cpp tests\Atomic_unittest.cpp tests\BlockingQueue_bench.cpp tests\BlockingQueue_test.cpp tests\BoundedBlockingQueue_test.cpp tests\Exception_test.cpp tests\FileUtil_test.cpp tests\LogFile_test.cpp tests\Logging_test.cpp tests\LogStream_bench.cpp tests\LogStream_test.cpp tests\Mutex_test.cpp tests\SingletonThreadLocal_test.cpp tests\Singleton_test.cpp tests\ThreadLocalSingleton_test.cpp tests\ThreadLocal_test.cpp tests\ThreadPool_test.cpp tests\Thread_test.cpp tests\Timestamp_unittest.cpp Thread.cpp ThreadPool.cpp Timestamp.cpp
+         Timestamp.cpp
+     1>e:\c++_practices\mymuduo\base\timestamp.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Timestamp.h”: No such file or directory
+         ThreadPool.cpp
+     1>e:\c++_practices\mymuduo\base\threadpool.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/ThreadPool.h”: No such file or directory
+         Thread.cpp
+     1>e:\c++_practices\mymuduo\base\thread.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Thread.h”: No such file or directory
+         Timestamp_unittest.cpp
+     1>e:\c++_practices\mymuduo\base\tests\timestamp_unittest.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Timestamp.h”: No such file or directory
+         Thread_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\thread_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Thread.h”: No such file or directory
+         ThreadPool_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\threadpool_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/ThreadPool.h”: No such file or directory
+         ThreadLocal_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\threadlocal_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/ThreadLocal.h”: No such file or directory
+         ThreadLocalSingleton_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\threadlocalsingleton_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/ThreadLocalSingleton.h”: No such file or directory
+         Singleton_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\singleton_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Singleton.h”: No such file or directory
+         SingletonThreadLocal_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\singletonthreadlocal_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Singleton.h”: No such file or directory
+         Mutex_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\mutex_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/CountDownLatch.h”: No such file or directory
+         LogStream_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\logstream_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/LogStream.h”: No such file or directory
+         LogStream_bench.cpp
+     1>e:\c++_practices\mymuduo\base\tests\logstream_bench.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/LogStream.h”: No such file or directory
+         Logging_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\logging_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Logging.h”: No such file or directory
+         LogFile_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\logfile_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/LogFile.h”: No such file or directory
+         FileUtil_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\fileutil_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/FileUtil.h”: No such file or directory
+         Exception_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\exception_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Exception.h”: No such file or directory
+         BoundedBlockingQueue_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\boundedblockingqueue_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/BoundedBlockingQueue.h”: No such file or directory
+         BlockingQueue_test.cpp
+     1>e:\c++_practices\mymuduo\base\tests\blockingqueue_test.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/BlockingQueue.h”: No such file or directory
+         BlockingQueue_bench.cpp
+     1>e:\c++_practices\mymuduo\base\tests\blockingqueue_bench.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/BlockingQueue.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         Atomic_unittest.cpp
+     1>e:\c++_practices\mymuduo\base\tests\atomic_unittest.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Atomic.h”: No such file or directory
+         ProcessInfo.cpp
+     1>e:\c++_practices\mymuduo\base\processinfo.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/ProcessInfo.h”: No such file or directory
+         LogStream.cpp
+     1>e:\c++_practices\mymuduo\base\logstream.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/LogStream.h”: No such file or directory
+         Logging.cpp
+     1>e:\c++_practices\mymuduo\base\logging.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Logging.h”: No such file or directory
+         LogFile.cpp
+     1>e:\c++_practices\mymuduo\base\logfile.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/LogFile.h”: No such file or directory
+         FileUtil.cpp
+     1>e:\c++_practices\mymuduo\base\fileutil.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/FileUtil.h”: No such file or directory
+         Exception.cpp
+     1>e:\c++_practices\mymuduo\base\exception.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Exception.h”: No such file or directory
+         CountDownLatch.cpp
+     1>e:\c++_practices\mymuduo\base\countdownlatch.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/CountDownLatch.h”: No such file or directory
+         Condition.cpp
+     1>e:\c++_practices\mymuduo\base\condition.cpp(1): fatal error C1083: 无法打开包括文件: “muduo/base/Condition.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\C++_practices\myMuduo\base\base.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.71

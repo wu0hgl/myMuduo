@@ -1,0 +1,4 @@
+﻿if(BOOSTTEST_LIBRARY)
+add_executable(inetaddress_unittest InetAddress_unittest.cpp)
+target_link_libraries(inetaddress_unittest muduo_net boost_unit_test_framework)
+endif()

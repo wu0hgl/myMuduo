@@ -1,0 +1,3 @@
+add_executable(objectoriented_test ObjectOriented_test.cpp Thread.cpp)
+target_link_libraries(objectoriented_test pthread)
+

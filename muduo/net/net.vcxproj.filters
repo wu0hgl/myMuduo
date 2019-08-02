@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{b382a390-7ec1-46de-813e-467f48dd7bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\poller">
+      <UniqueIdentifier>{f5ae4ef2-e51c-4d52-a722-e44331b43839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\inspect">
+      <UniqueIdentifier>{9771eb3a-c728-4253-9a99-e51ae39d72ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\http">
+      <UniqueIdentifier>{196cf1df-0c8e-4f68-846c-6284a9836705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\http\test">
+      <UniqueIdentifier>{f696c1db-6b1f-4420-970a-982e8a13e7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\tests">
+      <UniqueIdentifier>{8a45d56f-985e-410f-b595-55e547d53502}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventLoop.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Poller.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerQueue.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoopThread.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="InetAddress.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketsOps.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpConnection.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoopThreadPool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\DefaultPoller.cpp">
+      <Filter>net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\EPollPoller.cpp">
+      <Filter>net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="poller\PollPoller.cpp">
+      <Filter>net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\Inspector.cpp">
+      <Filter>net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect\ProcessInspector.cpp">
+      <Filter>net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpResponse.cpp">
+      <Filter>net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpServer.cpp">
+      <Filter>net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\tests\HttpRequest_unittest.cpp">
+      <Filter>net\http\test</Filter>
+    </ClCompile>
+    <ClCompile Include="http\tests\HttpServer_test.cpp">
+      <Filter>net\http\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\InetAddress_unittest.cpp">
+      <Filter>net\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventLoop.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poller.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Callbacks.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerId.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerQueue.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoopThread.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Endian.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="InetAddress.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketsOps.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceptor.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpConnection.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoopThreadPool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="poller\EPollPoller.h">
+      <Filter>net\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="poller\PollPoller.h">
+      <Filter>net\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\Inspector.h">
+      <Filter>net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect\ProcessInspector.h">
+      <Filter>net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpContext.h">
+      <Filter>net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpRequest.h">
+      <Filter>net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpResponse.h">
+      <Filter>net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpServer.h">
+      <Filter>net\http</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

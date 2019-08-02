@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{341eaf5a-a0c5-435c-8a47-5ce90769e72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\tests">
+      <UniqueIdentifier>{721c79ef-6fbb-4d6a-8668-abb9ff948dae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Atomic.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingQueue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundedBlockingQueue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="CountDownLatch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentThread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocalSingleton.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Timestamp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfo.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="copyable.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="noncopyable.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPiece.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="LogStream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Condition.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDownLatch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Timestamp.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInfo.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="LogStream.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Atomic_unittest.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\BlockingQueue_bench.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\BlockingQueue_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\BoundedBlockingQueue_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Exception_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FileUtil_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LogFile_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Logging_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LogStream_bench.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LogStream_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Mutex_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Singleton_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\SingletonThreadLocal_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Thread_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ThreadLocal_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ThreadLocalSingleton_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ThreadPool_test.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Timestamp_unittest.cpp">
+      <Filter>base\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tests\CMakeLists.txt">
+      <Filter>base\tests</Filter>
+    </Text>
+    <Text Include="CMakeLists.txt">
+      <Filter>base</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
