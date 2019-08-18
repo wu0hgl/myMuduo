@@ -38,7 +38,7 @@ private:
 
     void threadFunc()
     {
-        latch_.wait();
+        latch_.wait();      // 等待倒计数门栓量
         printf("tid=%d, %s started\n", CurrentThread::tid(), CurrentThread::name());
         printf("tid=%d, %s stopped\n", CurrentThread::tid(), CurrentThread::name());
     }
@@ -53,7 +53,7 @@ int main()
     Test t(3);
     sleep(3);
     printf("pid=%d, tid=%d %s running ...\n", ::getpid(), CurrentThread::tid(), CurrentThread::name());
-    t.run();    // 发起起跑命令
+    t.run();        // 发起起跑命令
     t.joinAll();
 
     printf("number of created threads %d\n", Thread::numCreated());
