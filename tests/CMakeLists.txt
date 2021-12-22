@@ -1,8 +1,3 @@
-#add_subdirectory(object_based)
-#add_subdirectory(object_oriented)
-#
-#add_executable(bf_test bf_test.cpp)
-
 #add_executable(countdownlatch_test1 CountDownLatch_test1.cc)
 #target_link_libraries(countdownlatch_test1 muduo_base)
 
@@ -115,5 +110,6 @@ target_link_libraries(reactor_test13 muduo_net)
 #target_link_libraries(filetransfer_test muduo_net)     
 
 add_subdirectory(poll&epoll)
+add_subdirectory(object/boost_test)
 add_subdirectory(object/object_oriented)
 add_subdirectory(object/object_base)

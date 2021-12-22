@@ -22,7 +22,7 @@ int main() {
     boost::function<void (int)> fp_1 = boost::bind(&Foo::memberFunc, &foo, 0.5, _1, 10);    // 绑定的成员函数, 第一个参数是this指针
     fp_1(100);
 
-    /* 两个参数 */
+    /* 两个参数, 成员函数取地址符不能省略 */
     boost::function<void (int, int)> fp_2 = boost::bind(&Foo::memberFunc, &foo, 0.5, _1, _2);
     fp_2(100, 13);      // 相当于: (&foo)->menberFunc(0.5, 100, 13)
 

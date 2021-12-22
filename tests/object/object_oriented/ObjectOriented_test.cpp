@@ -32,21 +32,20 @@ private:
 };
 
 int main() {
-    /*
+    /* 线程执行完毕, 线程对象未销毁 */
     TestThread t(5);
     t.Start();
-    //t.Run();      // 若把Run做成public, 直接调用其实是在主线程里执行函数
+    // 若把 Run 做成 public, 直接调用其实是在主线程里执行函数
+    //t.Run();
     t.Join();
     cout << "=================" << endl;
-    */
+
+    /* 线程执行完毕, 线程对象销毁 */
     TestThread *t1 = new TestThread(3);
     t1->setAutoDelete(true);
     t1->Start();
     t1->Join();
-    while (1)
-    {
-        pause();
-    }
+    cout << "=================" << endl;
 
     return 0;
 }

@@ -56,6 +56,7 @@ int main() {
     Thread t3(boost::bind(&Foo::MemberFunc, foo));
     Foo foo2(3);
     Thread t4(boost::bind(&Foo::MemberFunc2, foo2, 1000));
+    //Thread t4(boost::bind(&Foo::MemberFunc2, foo, 1000)); // 访问同一个对象中的 count_ 会出问题
     
 
     t1.Start();
